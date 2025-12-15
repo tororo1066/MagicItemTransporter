@@ -1,0 +1,11 @@
+redis:
+  host: redis
+  port: 6379
+
+mongodb:
+  url: mongodb://mongo1:27017,mongo2:27017,mongo3:27017/?replicaSet=rs0
+  db: magic_item_transporter
+
+opentelemetry:
+  endpoint: http://otel-collector:4318/v1/logs
+  service-name: MagicItemTransporter

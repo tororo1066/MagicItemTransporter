@@ -1,5 +1,11 @@
-name: PluginName
-main: MainClass
+name: MagicItemTransporter
+main: tororo1066.magicitemtransporter.MagicItemTransporter
 version: '1.0'
-api-version: '1.19'
-loader: tororo1066.changeme.DependencyLoader
+api-version: '1.21'
+
+dependencies:
+  server:
+    Magic:
+      required: true
+    NMSUtils:
+      required: true
